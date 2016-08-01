@@ -48,8 +48,21 @@ li {
 	list-style-type: square;
 }
 
+.menu {
+	text-decoration: none;
+	color : #ffffff;
+	font-weight: bold;
+	margin-left: 40px;
+	background-color: #b9e2fa;
+
+}
+
+.menu.active {
+	background-color: #000000;
+}
 a:hover {
 	font-weight: bold;
+	color : #0000ff;
 }
 
 .left {
@@ -86,4 +99,18 @@ a:hover {
 #footer p {
 	position: relative;
 	padding-top: 15px;
+}
+
+img {
+	height: 400px;
+	margin-left: 150px;
+	border-radius: 15px;
+
+}
+#burger {
+	z-index: 1;
+	float: right;
+	margin-right: 150px;
+	margin-top: 150px;
+
 }
